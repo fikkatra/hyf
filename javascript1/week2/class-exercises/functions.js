@@ -7,31 +7,18 @@ Create a function called celciusToFahreneit it should have a parameter called ce
 Try call the function and check with google if the function returns the right value.
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function getCircleArea(radius) {
-    const area = Math.PI * radius ** 2;
- return area;
+  return Math.PI * radius ** 2;
 }
 
-const area = getCircleArea(10);
+// These 2 lines:
+const area = getCircleArea(5);
 console.log(area);
-console.log(getCircleArea(10));
+// are equivalent to this line:
+console.log(getCircleArea(5));
 
 function celciusToFahreneit(celcius) {
-    return celcius * 1.8 + 32;
+  return celcius * 1.8 + 32;
 }
 
-console.log(celciusToFahreneit(5));
+console.log(celciusToFahreneit(18));

@@ -7,7 +7,7 @@ If a user has more than 3000 and at most 10000 log out 'Your balance is fantasti
 If a user has more than 10000 log out 'Your balance is AMAZING!'
  */
 
-let balance = 10000;
+let balance = 5000;
 
 if (balance <= 0) {
   console.log("Please deposit some money!");
@@ -22,7 +22,7 @@ if (balance <= 0) {
 }
 
 // Alternative, shorter solution
-
+balance = 1500;
 if (balance <= 0) {
   console.log("Please deposit some money!");
 } else if (balance <= 1000) {
@@ -34,4 +34,3 @@ if (balance <= 0) {
 } else {
   console.log("Your balance is AMAZING!");
 }
-
