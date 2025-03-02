@@ -31,9 +31,9 @@ if (indexOfNameToRemove !== -1) {
 
 // Alternative solution 2, creating a new array
 // const newNames = [];
-// for (let i = 0; i < names.length; i++) {
-//   if (names[i] !== nameToRemove) {
-//     newNames.push(names[i]);
+// for (let name of names) {
+//   if (name !== nameToRemove) {
+//     newNames.push(name);
 //   }
 // }
 // names = newNames;
